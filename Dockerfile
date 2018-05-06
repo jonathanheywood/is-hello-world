@@ -1,2 +1,2 @@
-FROM store/softwareag/webmethods-microservicescontainer:10.1
-COPY HelloWorld /sag/IntegrationServer/instances/default/packages/HelloWorld
+FROM store/softwareag/webmethods-microservicesruntime:10.2
+COPY HelloWorld /opt/SoftwareAG/IntegrationServer/instances/default/packages/HelloWorld
